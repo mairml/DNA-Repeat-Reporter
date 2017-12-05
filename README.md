@@ -6,6 +6,7 @@ Note: This script was written and run using Python version 2.7.3. The program wa
 For full explaination and example use of this script in finding large, inverted repeats, please see attached pdf.
 
 ==============Program Summary==============
+
 This script finds exacts directed and inverted nucleotide repeats in a input FASTA file. The program then outputs two files: a repeat report, and a FASTA file containing repeat regions.
 
 The repeat report contains the following information:
@@ -20,8 +21,9 @@ The second output is a FASTA file containing the sequences of all detected repea
 NOTE: This program does not only return maximal repeats, but maximal repeats and their repeated substring elements. Please see attached pdf for further explanation. 
 
 ==============Program Use==============
+
 From your command prompt:
 
 path/to/script/repeat-reporter.py input_sequence.fasta min_window report_outfile.txt seq_outfile.txt
 
-Where min_window is an integer value (example: 5)
+Where min_window is an integer value designating the minimum repeat size you would like to detect (example: 5)
