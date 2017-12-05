@@ -7,7 +7,7 @@ For full explaination and example use of this script in finding large, inverted 
 
 ==============Program Summary==============
 
-This script finds exacts directed and inverted nucleotide repeats in a input FASTA file. The program then outputs two files: a repeat report, and a FASTA file containing repeat regions.
+This script finds exact direct or inverted nucleotide repeats in a input FASTA file. The program then outputs two files: a repeat report, and a FASTA file containing repeat regions.
 
 The repeat report contains the following information:
 1.	Size of the motif sequence
